@@ -1,7 +1,7 @@
 ;;; desert-theme.el --- A warm earthy port of Vim's desert theme  -*- lexical-binding: t; -*-
 ;;
-;; Author: Your Name <you@example.com>
-;; URL: https://github.com/yourname/desert-theme
+;; Author: Ben Carriel <notthefather@pm.me>
+;; URL: https://github.com/bkc39/desert-theme
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: faces theme vim desert
