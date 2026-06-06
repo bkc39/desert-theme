@@ -2,6 +2,7 @@
 ;;
 ;; Author: Ben Carriel <notthefather@pm.me>
 ;; Maintainer: Ben Carriel <notthefather@pm.me>
+;; Assisted-by: Claude:claude-opus-4-8
 ;; URL: https://github.com/bkc39/desert-theme
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1"))
