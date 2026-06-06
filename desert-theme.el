@@ -1,15 +1,17 @@
 ;;; desert-theme.el --- A warm earthy port of Vim's desert theme  -*- lexical-binding: t; -*-
 ;;
 ;; Author: Ben Carriel <notthefather@pm.me>
+;; Maintainer: Ben Carriel <notthefather@pm.me>
 ;; URL: https://github.com/bkc39/desert-theme
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "24.1"))
+;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: faces theme vim desert
 ;;
 ;; This file is NOT part of GNU Emacs.
 ;;
 ;;; License:
-;; Public domain / CC0. Do whatever you want.
+;; Public domain / CC0-1.0.  Do whatever you want.
+;; SPDX-License-Identifier: CC0-1.0
 
 ;;; Commentary:
 ;;
@@ -29,7 +31,7 @@
 ;;     :straight (desert-theme
 ;;                :type git
 ;;                :host github
-;;                :repo "yourname/desert-theme")
+;;                :repo "bkc39/desert-theme")
 ;;     :config
 ;;     (load-theme 'desert t))
 ;;
@@ -149,8 +151,7 @@
    `(magit-section-heading        ((t (:foreground ,desert-keyword :weight bold))))
    `(magit-branch-local           ((t (:foreground ,desert-var :weight bold))))
    `(magit-branch-remote          ((t (:foreground ,desert-string :weight bold))))
-   `(magit-diff-context-highlight ((t (:background ,desert-bg-alt :foreground ,desert-fg :extend t))))
-   )
+   `(magit-diff-context-highlight ((t (:background ,desert-bg-alt :foreground ,desert-fg :extend t)))))
 
   ;; Variables (theme-level tweaks)
   (custom-theme-set-variables

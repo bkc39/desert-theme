@@ -1,0 +1,5 @@
+*.elc
+*.el~
+*-autoloads.el
+/.eask/
+/dist/
