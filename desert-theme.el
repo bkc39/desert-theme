@@ -151,8 +151,7 @@
    `(magit-section-heading        ((t (:foreground ,desert-keyword :weight bold))))
    `(magit-branch-local           ((t (:foreground ,desert-var :weight bold))))
    `(magit-branch-remote          ((t (:foreground ,desert-string :weight bold))))
-   `(magit-diff-context-highlight ((t (:background ,desert-bg-alt :foreground ,desert-fg :extend t))))
-   )
+   `(magit-diff-context-highlight ((t (:background ,desert-bg-alt :foreground ,desert-fg :extend t)))))
 
   ;; Variables (theme-level tweaks)
   (custom-theme-set-variables

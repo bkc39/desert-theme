@@ -32,9 +32,6 @@ jobs:
         with:
           version: 'snapshot'
 
-      - name: Install dependencies
-        run: eask install-deps
-
       - name: Byte-compile
         run: eask compile
 
